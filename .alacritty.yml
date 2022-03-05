@@ -1,0 +1,19 @@
+font:
+
+  normal:
+    family: CozetteVector
+    style: Regular
+
+  bold:
+    family: CozetteVector
+    style: Regular
+
+  italic:
+    family: CozetteVector
+    style: Regular
+
+  bold_italic:
+    family: CozetteVector
+    style: Regular
+
+  size: 9
