@@ -1,12 +1,12 @@
 {
     "workbench.colorTheme": "Gruvbox Dark Medium",
-    "editor.fontFamily": "'CozetteVector', 'monospace', monospace, 'Droid Sans Fallback'",
-    "editor.fontSize": 12,
+    "editor.fontFamily": "'Source Code Pro', 'monospace', monospace, 'Droid Sans Fallback'",
     "markdown-checkbox.dateWhenChecked": false,
     "markdown-checkbox.italicWhenChecked": false,
     "markdown-checkbox.strikeThroughWhenChecked": false,
     "markdown-checkbox.typeOfBulletPoint": "-",
     "markdown-checkbox.withBulletPoint": false,
     "memo.links.format": "long",
-    "markdown-checkbox.checkmark": "x"
+    "markdown-checkbox.checkmark": "x",
+    "editor.fontSize": 13
 }
