@@ -7,5 +7,6 @@
     "markdown-checkbox.strikeThroughWhenChecked": false,
     "markdown-checkbox.typeOfBulletPoint": "-",
     "markdown-checkbox.withBulletPoint": false,
-    "memo.links.format": "long"
+    "memo.links.format": "long",
+    "markdown-checkbox.checkmark": "x"
 }
