@@ -29,6 +29,31 @@ The `clone` and `pull` command may result in warnings because of pre-existing do
 $ yadm fetch --all
 $ yadm reset --hard origin/master
 ```
+
+## :arrow_up: Updating Dotfiles
+
+`yadm status` will show you any updates to existing added dotfiles
+
+```shell
+$ yadm status
+
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   .config/Code/User/settings.json
+
+Untracked files not listed (use -u option to show untracked files)
+```
+
+`yadm commit -a` autocommits **only** the modified and deleted dotfiles.
+
+```
+$ yadm commit -a -m "updated settings.json"
+$ yadm push
+```
+
 ## :page_with_curl: License
 
 Dotfiles made public under the [MIT license](LICENSE).
