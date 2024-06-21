@@ -1,0 +1,61 @@
+[font]
+size = 10
+
+[font.bold]
+family = "CozetteVector"
+style = "Medium"
+
+[font.bold_italic]
+family = "CozetteVector"
+style = "Medium"
+
+[font.italic]
+family = "CozetteVector"
+style = "Medium"
+
+[font.normal]
+family = "CozetteVector"
+style = "Medium"
+
+[shell]
+args = ["--cd ~"]
+program = 'C:\Windows\System32\wsl.exe'
+
+[window.dimensions]
+columns = 160
+lines = 50
+
+# THEME - seoul256
+# Orginally designed by junegunn for vim.
+
+# Default colors
+[colors.primary]
+background = '#4A4A4A'
+foreground = '#D8D8D8'
+
+# Cursor colors
+[colors.cursor]
+text   = '#4A4A4A'
+cursor = '#D8D8D8'
+
+# Normal colors
+[colors.normal]
+black   = '#606060'
+red     = '#DF9A98'
+green   = '#719672'
+yellow  = '#E0BB71'
+blue    = '#96BBDC'
+magenta = '#DFBDBC'
+cyan    = '#97BCBC'
+white   = '#D8D8D8'
+
+# Bright colors
+[colors.bright]
+black   = '#757575'
+red     = '#E07798'
+green   = '#97BB98'
+yellow  = '#FFDD98'
+blue    = '#BADCFB'
+magenta = '#FFBEBC'
+cyan    = '#96DDDE'
+white   = '#E9E9E9'
